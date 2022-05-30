@@ -12,12 +12,12 @@ const Product = () => {
   return (
     <Stack data-cy="product">
       <Image data-cy="product-image" />
-      <Text data-cy="product-category"></Text>
+      <Text data-cy="product-category">Categoty</Text>
       <Tag>
-        <TagLabel data-cy="product-gender"></TagLabel>
+        <TagLabel data-cy="product-gender">Gender</TagLabel>
       </Tag>
-      <Heading data-cy="product-title"></Heading>
-      <Box data-cy="product-price"></Box>
+      <Heading data-cy="product-title">Title</Heading>
+      <Box data-cy="product-price">Price</Box>
     </Stack>
   );
 };
